@@ -347,8 +347,3 @@ async def main():
                                              reply_to_message_id=message.id)
 
   print("Done Bot Active ✅")
-
-  await compose(clients)
-
-
-asyncio.run(main())
