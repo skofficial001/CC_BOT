@@ -34,7 +34,7 @@ async def cmd_au(Client,message):
         await message.reply_text(resp,message.id)
       
       elif chat_type=="ChatType.GROUP" or   chat_type=="ChatType.SUPERGROUP" and chat_id not in GROUP:
-        resp = "𝗨𝗡𝗔𝗨𝗧𝗛𝗢𝗥𝗜𝗭𝗘𝗗 𝗖𝗛𝗔𝗧 ❌. 𝗖𝗢𝗡𝗧𝗔𝗖𝗧 @mtctechx 𝗧𝗢 𝗔𝗨𝗧𝗛𝗢𝗥𝗜𝗭𝗘."
+        resp = "𝗨𝗡𝗔𝗨𝗧𝗛𝗢𝗥𝗜𝗭𝗘𝗗 𝗖𝗛𝗔𝗧 ❌. 𝗖𝗢𝗡𝗧𝗔𝗖𝗧 @iam_daxx 𝗧𝗢 𝗔𝗨𝗧𝗛𝗢𝗥𝗜𝗭𝗘."
         await message.reply_text(resp,message.id)
       else:
         #CREDIT CHECK
@@ -311,7 +311,7 @@ async def cmd_au(Client,message):
 ⌧ Time in Progress - {toc - tic:0.4f}sec
 ⌧ Credit Deducted - 1
 ⌧ Checked by: <a href="tg://user?id={message.from_user.id}"> {message.from_user.first_name}</a> ♻️ [ {role} ]
-⌧ Client by - <a href="tg://user?id=1386134927">[ 🇧🇩 ] ＭＴＣＴＥＣＨＸ 👑</a>
+⌧ Client by - <a href="tg://user?id=6691393517">𝐌𝚁°᭄𝐃𝙰𝚇𝚇 ࿐™ </a>
 －－－－－－－－－－－－－－－－</b>
             """
             
