@@ -10,11 +10,11 @@ plugins = dict(root="plugins")
 
 async def main():
   user = Client("scrapper",
-                api_id="27649783",
-                api_hash="834fd6015b50b781e0f8a41876ca95c8")
+                api_id="6435225",
+                api_hash="4e984ea35f854762dcde906dce426c2d")
   bot = Client("my_bot",
-               api_id="27649783",
-               api_hash="834fd6015b50b781e0f8a41876ca95c8",
+               api_id="6435225",
+               api_hash="4e984ea35f854762dcde906dce426c2d",
                bot_token="6576720076:AAENXvK1uqYNngQs10Yk38Z4b4IxFo4Mikw",
                plugins=plugins)
   clients = [user, bot]
