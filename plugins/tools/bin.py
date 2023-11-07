@@ -33,7 +33,7 @@ async def cmd_bin(Client,message):
         await message.reply_text(resp,message.id)
       
       elif chat_type=="ChatType.GROUP" or   chat_type=="ChatType.SUPERGROUP" and chat_id not in GROUP:
-        resp = "𝗨𝗡𝗔𝗨𝗧𝗛𝗢𝗥𝗜𝗭𝗘𝗗 𝗖𝗛𝗔𝗧 ❌. 𝗖𝗢𝗡𝗧𝗔𝗖𝗧 @mtctechx 𝗧𝗢 𝗔𝗨𝗧𝗛𝗢𝗥𝗜𝗭𝗘."
+        resp = "𝗨𝗡𝗔𝗨𝗧𝗛𝗢𝗥𝗜𝗭𝗘𝗗 𝗖𝗛𝗔𝗧 ❌. 𝗖𝗢𝗡𝗧𝗔𝗖𝗧 @iam_daxx 𝗧𝗢 𝗔𝗨𝗧𝗛𝗢𝗥𝗜𝗭𝗘."
         await message.reply_text(resp,message.id)
       else:
       #CMD SENT NOW CHECKING VALID IF OR NOT CC#
@@ -97,7 +97,7 @@ async def cmd_bin(Client,message):
 𝗖𝗼𝘂𝗻𝘁𝗿𝘆: {country} - {flag} - {currency}
 
 𝗖𝗵𝗲𝗰𝗸𝗲𝗱 𝗕𝘆 <a href="tg://user?id={message.from_user.id}"> {message.from_user.first_name}</a> [ {role} ]
-𝗕𝗼𝘁 𝗕𝘆 <a href="tg://user?id=1386134927">[ 🇧🇩 ] ＭＴＣＴＥＣＨＸ 👑</a>
+𝗕𝗼𝘁 𝗕𝘆 <a href="tg://user?id=6691393517">𝐌𝚁°᭄𝐃𝙰𝚇𝚇 ࿐™</a>
         """
         await message.reply_text(resp,message.id)
   except Exception as e:
